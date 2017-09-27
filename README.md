@@ -16,3 +16,28 @@
 4. npm install -g nodemon (OPTIONAL)
 5. Run server: `npm start`
 6. API available on http://localhost:8888
+
+
+## ENDPOINTS AVAILABLE:
+
+```
+- GET http://localhost:8888/vehicles/<MODEL YEAR>/<MANUFACTURER>/<MODEL>?withRating=true
+```
+
+```
+- POST http://localhost:8888/vehicles
+```
+
+With application/JSON body:
+
+```
+{
+    "modelYear": 2015,
+    "manufacturer": "Audi",
+    "model": "A3"
+}
+```
+
+## Requirements
+
+[Guidelines for this project](docs/node-api-assignment.md)
