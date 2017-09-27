@@ -1,4 +1,4 @@
-# Node.js NHTSA API with MySQL
+# Node.js NHTSA API
 
 [![Node.js](https://img.shields.io/badge/Powered_by-NodeJS-green.svg?style=flat)](https://nodejs.org)
 [![Express.js](https://img.shields.io/badge/Powered_by-expressjs-white.svg?style=flat)](https://expressjs.com/)
